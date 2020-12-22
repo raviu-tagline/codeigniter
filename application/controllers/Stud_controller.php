@@ -60,6 +60,7 @@
          $data['records'] = $query->result(); 
          $this->load->view('Stud_view',$data); 
       } 
+      
   
       public function delete_student() { 
          $this->load->model('Stud_Model'); 
