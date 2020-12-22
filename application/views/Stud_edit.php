@@ -12,7 +12,6 @@
          <?php 
             echo form_open('Stud_controller/update_student'); 
             echo form_hidden('old_id',$old_id);
-            echo "id ::::::: $old_id<br>"; 
             echo form_label('Student Name .'); 
             echo form_input(array('id'=>'name','name'=>'name','value'=>$records[0]->stud_name)); 
             echo "<br>"; 
