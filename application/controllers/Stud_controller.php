@@ -62,7 +62,6 @@
       } 
       
       
-      
       public function delete_student() { 
          $this->load->model('Stud_Model'); 
          $id = $this->uri->segment('3'); 
